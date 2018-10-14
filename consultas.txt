@@ -1,0 +1,3 @@
+SELECT cal.est_id, nt.est_nom, SUM(cal.puntaje) as 'Puntaje Total', COUNT(cal.puntaje) as 'Total Notas', 
+AVG(cal.puntaje)as 'Promedio' FROM `calificaciones` cal INNER JOIN estudiante nt ON cal.est_id = nt.est_id
+GROUP by cal.est_id
