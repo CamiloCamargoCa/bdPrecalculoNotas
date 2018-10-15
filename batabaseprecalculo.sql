@@ -7,6 +7,7 @@
 -- Versión del servidor: 10.1.34-MariaDB
 -- Versión de PHP: 7.2.8
 
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -21,6 +22,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `batabaseprecalculo`
 --
+CREATE DATABASE batabaseprecalculo;
+USE batabaseprecalculo;
 
 -- --------------------------------------------------------
 
